@@ -18,7 +18,7 @@ This project replicates the functionality of the C standard library function `pr
 - Robust error handling.
 - Clean and efficient implementation, adhering to coding standards.
 
-- ### Function Prototype
+## Function Prototype
 ```c
 int ft_printf(const char *format, ...);
 ```
