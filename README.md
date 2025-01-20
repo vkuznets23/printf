@@ -28,6 +28,7 @@ int ft_printf(const char *format, ...);
  
 ## Supported Format Specifiers
 |Format   | Description  |
+|---------|--------------|
 |`%c`     |  Print a single character |
 |`%s`     |  Print a string |
 |`%d`/`%i`  |  Print a signed decimal integer |
