@@ -27,13 +27,13 @@ int ft_printf(const char *format, ...);
   - `...`: Variable arguments corresponding to the format specifiers in the format string.
  
 ## Supported Format Specifiers
-|Format   | Description
-|`%c`     |  Print a single character
-|`%s`     |  Print a string
-|`%d`/`%i`  |  Print a signed decimal integer
-|`%u`     |   Print an unsigned decimal integer
-|`%x`     |   Print a number in lowercase hexadecimal
-|`%X`     |   Print a number in uppercase hexadecimal
-|`%%`     |   Print a literal % character
-|`%p`     |   	Print a pointer address
+|Format   | Description  |
+|`%c`     |  Print a single character |
+|`%s`     |  Print a string |
+|`%d`/`%i`  |  Print a signed decimal integer |
+|`%u`     |   Print an unsigned decimal integer |
+|`%x`     |   Print a number in lowercase hexadecimal |
+|`%X`     |   Print a number in uppercase hexadecimal |
+|`%%`     |   Print a literal % character  |
+|`%p`     |   	Print a pointer address  |
 
