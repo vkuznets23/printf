@@ -9,6 +9,7 @@ This project replicates the functionality of the C standard library function `pr
 - [Supported Format Specifiers](#supported-format-specifiers)
 - [How to use](#how-to-use)
 - [Getting started](#getting-started)
+- [Contribution](#contribution)
 
 ## Features
 
@@ -38,3 +39,25 @@ int ft_printf(const char *format, ...);
 |`%%`     |   Print a literal % character  |
 |`%p`     |   	Print a pointer address  |
 
+## How to use
+```c
+#include "ft_printf.h"
+
+int main(void)
+{
+    ft_printf("Hello, %s!\n", "World");
+    ft_printf("Number: %d\n", 42);
+    ft_printf("Hex: %x\n", 255);
+    return 0;
+}
+```
+
+## Getting started
+``` bash
+git clone https://github.com/vkuznets23/printf.git printf
+cd printf
+make
+```
+
+## Contribution
+Contributions are welcome! If you find a bug or have a suggestion for improvement, feel free to open an issue or submit a pull request
