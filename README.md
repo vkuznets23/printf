@@ -54,8 +54,8 @@ int main(void)
 
 ## Getting started
 ``` bash
-git clone https://github.com/vkuznets23/printf.git printf
-cd printf
+git clone https://github.com/vkuznets23/printf.git ft_printf
+cd ft_printf
 make
 ```
 
