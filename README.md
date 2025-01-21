@@ -53,11 +53,18 @@ int main(void)
 ```
 
 ## Getting started
+This project includes a Makefile to simplify compilation and archive creation:
 ``` bash
 git clone https://github.com/vkuznets23/printf.git ft_printf
 cd ft_printf
-make
+make 
 ```
+
+When main.c is done compile the test program with the ft_printf.a library:
+```bash
+gcc -Wall -Wextra -Werror -o test_program main.c ft_printf.a
+```
+
 
 ## Contribution
 Contributions are welcome! If you find a bug or have a suggestion for improvement, feel free to open an issue or submit a pull request
