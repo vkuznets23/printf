@@ -10,9 +10,13 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libftprintf.a
-SRC = \
-	  ft_print_hex.c ft_print_pointer.c ft_printf.c ft_printf_utils.c  ft_print_unsigned_dec.c 
+NAME = printf
+SRC = ft_print_hex.c \
+	ft_print_pointer.c \
+	ft_printf.c \
+	ft_printf_utils.c  \
+	ft_print_unsigned_dec.c 
+
 OBJECTS = $(SRC:.c=.o)
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
