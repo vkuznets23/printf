@@ -63,6 +63,7 @@ make
 When main.c is done compile the test program with the ft_printf.a library:
 ```bash
 gcc -Wall -Wextra -Werror -o test_program main.c ft_printf.a
+./test_program
 ```
 
 
