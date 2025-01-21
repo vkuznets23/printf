@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = printf
+NAME = ft_printf.a
 SRC = ft_print_hex.c \
 	ft_print_pointer.c \
 	ft_printf.c \
